@@ -4,6 +4,12 @@ This program receives temperature and humidity measurements from RuuviTag sensor
 
 This project is not affiliated to the [Ruuvi](https://ruuvi.com) company in any way.
 
+## Picture
+
+This is a picture of the setup of this project:
+
+![RuuviTag ePaper project](ruuvitag-epaper.jpg)
+
 ## System requirements
 
 This program has been tested on a Raspberry Pi 3B with Raspbian Buster Lite, with a [Waveshare 2.7 inch three-colour e-Paper HAT](https://www.waveshare.com/wiki/2.7inch_e-Paper_HAT_(B)).
