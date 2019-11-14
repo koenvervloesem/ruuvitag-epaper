@@ -3,7 +3,7 @@
 This program receives temperature and humidity measurements from RuuviTag sensors using MQTT and shows them on a Waveshare 2.7 inch three-colour e-Paper HAT.
 
 This project is not affiliated to the [Ruuvi](https://ruuvi.com) company in any way.
-```
+
 ## System requirements
 
 This program has been tested on a Raspberry Pi 3B with Raspbian Buster Lite, with a [Waveshare 2.7 inch three-colour e-Paper HAT](https://www.waveshare.com/wiki/2.7inch_e-Paper_HAT_(B)).
