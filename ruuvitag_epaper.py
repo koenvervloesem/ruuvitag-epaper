@@ -1,6 +1,7 @@
-"""This program receives temperature and humidity measurements from RuuviTag sensors using MQTT and shows them on a Waveshare 2.7 inch e-Paper HAT.
+"""This program receives temperature and humidity measurements from RuuviTag sensors using MQTT
+and shows them on a Waveshare 2.7 inch e-Paper HAT.
 
-Copyright (C) Koen Vervloesem 2019
+Copyright (C) 2019 Koen Vervloesem
 
 License: MIT
 """
@@ -97,6 +98,7 @@ def on_message(client, userdata, message):
 
 
 def main():
+    """Main function with the event loop."""
     # Initialize MQTT connection
     mqtt_client = mqtt.Client(MQTT_CLIENT_ID)
     mqtt_client.on_message = on_message
